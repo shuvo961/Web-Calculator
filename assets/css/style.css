@@ -1,0 +1,18 @@
+/*body {
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+.calculator{
+
+    background-image: linear-gradient(to right top, #0f1011, #181e25, #232a3a, #333750, #484264);
+    margin: 30px;
+    border: 1px solid brown;
+}
+
+
+.bbb{
+    width: 60px;
+    margin: auto;
+}
