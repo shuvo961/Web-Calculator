@@ -5,7 +5,7 @@
     background-size: cover;
 } */
 .calculator{
-    width: 450px;
+    width: 400px;
     background-image: linear-gradient(to right top, #0f1011, #181e25, #232a3a, #333750, #484264);
     margin: 30px;
     border: 1px solid brown;
