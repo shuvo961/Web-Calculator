@@ -15,30 +15,31 @@
        <div class="row d-flex justify-content-center p-sm-5">
            <div class="col-sm-6">
                <div class="card calculator">
-                   <div class="card-header text-center bg-secondary">
+                   <div class="text-center" id="header">
                        <h3> Calculator </h3>
                    </div>
 
-                   <div class="card-body">
+                   <div class="card-body" >
 
-                       <div class="form-row mb-lg-4">
+                       <div class="form-row mb-lg-4" >
                            <div class="form-control">
                                <div class="col-sm-12 ">
                                    <input type="text" name="box" id="display" class="btn btn-block" value="" placeholder="0.0"  onclick="setCal()">
                                </div>
                            </div>
                        </div>
+                         <div style="margin-top: 40px">
+                         </div>
 
-
-                       <div class="form-inline d-flex justify-content-center my-2">
+                       <div class="form-inline d-flex justify-content-center my-2" >
                            <div class="bbb">
                                <button type="button" name="clear" class="btn btn-danger btn-block" id="clear" onclick="setOp()">C</button>
                            </div>
                            <div class="bbb">
-                               <button type="button"  class="btn btn-secondary btn-block" onclick="set('(')" >(</button>
+                               <button type="button"  class="btn btn-light btn-block" onclick="set('(')" >(</button>
                            </div>
                            <div class="bbb">
-                               <button type="button"  class="btn btn-secondary btn-block " onclick="set(')')" >)</button>
+                               <button type="button"  class="btn btn-light btn-block " onclick="set(')')" >)</button>
                           </div>
                            <div class="bbb">
                                <button type="button" name="back" id="back" class="btn btn-warning btn-block" onclick="setback()" >&laquo; </button>
@@ -56,13 +57,13 @@
 
                        <div class="form-inline d-flex justify-content-center my-2">
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block" onclick="set('7')">7</button>
+                               <button type="button" class="btn  btn-light btn-block" onclick="set('7')">7</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block" onclick="set('8')" >8</button>
+                               <button type="button" class="btn  btn-light btn-block" onclick="set('8')" >8</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block " onclick="set('9')">9</button>
+                               <button type="button" class="btn  btn-light btn-block " onclick="set('9')">9</button>
                            </div>
                            <div class="bbb">
                                <button type="button"  class="btn btn-outline-warning btn-block"onclick="sin()">sin</button>
@@ -76,13 +77,13 @@
 
                        <div class="form-inline d-flex justify-content-center my-2">
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block" onclick="set('4')">4</button>
+                               <button type="button" class="btn btn-light btn-block" onclick="set('4')">4</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block"onclick="set('5')">5</button>
+                               <button type="button" class="btn btn-light btn-block" onclick="set('5')">5</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block " onclick="set('6')" >6</button>
+                               <button type="button" class="btn btn-light btn-block " onclick="set('6')" >6</button>
                            </div>
                            <div class="bbb">
                                <button type="button"  class="btn btn-outline-warning btn-block" onclick="cos()">cos</button>
@@ -97,13 +98,13 @@
 
                        <div class="form-inline d-flex justify-content-center my-2">
                            <div class="bbb">
-                               <button type="button" name="1" value="1" id="1" class="btn btn-secondary btn-block" onclick="set('1')">1</button>
+                               <button type="button" name="1" value="1" id="1" class="btn btn-light btn-block" onclick="set('1')">1</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" name="2" value="2" id="2" class="btn btn-secondary btn-block" onclick="set('2')">2</button>
+                               <button type="button" name="2" value="2" id="2" class="btn btn-light btn-block" onclick="set('2')">2</button>
                            </div>
                            <div class="bbb">
-                               <button type="button" name="3" value="3" id="3" class="btn btn-secondary btn-block " onclick="set('3')">3</button>
+                               <button type="button" name="3" value="3" id="3" class="btn btn-light btn-block " onclick="set('3')">3</button>
                            </div>
                            <div class="bbb">
                                <button type="button"  class="btn btn-outline-warning btn-block"onclick="tan()">tan</button>
@@ -117,14 +118,14 @@
 
                        <div class="form-inline d-flex justify-content-center my-2">
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block" onclick="set('.')">.</button>
+                               <button type="button" class="btn btn-light btn-block" onclick="set('.')">.</button>
                            </div>
 
                            <div class="bbb">
-                               <button type="button" class="btn btn-secondary btn-block" onclick="set('0')">0</button>
+                               <button type="button" class="btn btn-light btn-block" onclick="set('0')">0</button>
                            </div>
                            <div class="bbb">
-                               <button type="button"  class="btn btn-secondary btn-block"onclick="set('3.14')">π</button>
+                               <button type="button" class="btn btn-light btn-block" onclick="set('3.14')">π</button>
                            </div>
                            <div class="bbb">
                                <button type="submit" name="equal" id="equal" class="btn btn-success btn-block">=</button>
